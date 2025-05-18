@@ -1,5 +1,5 @@
 
-# Pairs Trading Cointegration Analyzer
+# Pairs Trading Cointegration Analyzer (StatArb)
 
 This Jupyter Notebook performs statistical analysis to identify potentially cointegrated pairs of financial assets for pairs trading strategies. It downloads historical price data using `yfinance`, checks for stationarity using the Augmented Dickey-Fuller (ADF) test, calculates correlation, and performs the Engle-Granger cointegration test. If cointegration is found, it also plots the spread and its Z-score.
 
